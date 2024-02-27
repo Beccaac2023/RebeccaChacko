@@ -152,7 +152,7 @@ button{
 .btn{
     line-height: 1.5;
     background-color: var(--white-alpha-25);
-    border:1px solid var(--white-alpha-40);
+    border:3px solid var(--white-alpha-40);
     padding: 10px 28px;
     display: inline-block;
     border-radius: 30px;
