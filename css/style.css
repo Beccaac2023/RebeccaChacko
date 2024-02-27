@@ -149,6 +149,7 @@ button{
     font-family: inherit;
     user-select: none;
 }
+
 .btn{
     line-height: 1.5;
     background-color: var(--white-alpha-25);
@@ -167,6 +168,7 @@ button{
     overflow:hidden;
     vertical-align: middle;
     transition: color 0.3s ease;
+    animation: pulse 1s infinite alternate;
 }
 .btn::before{
     content: '';
@@ -179,12 +181,7 @@ button{
     z-index: -1;
     transition: width 0.3s ease;
 }
-.btn:hover::before{
-    width: 100%;
-}
-.btn:hover{
-    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
-}
+
 
 /* Animation Keyframes */
 @keyframes fadeIn{
@@ -227,6 +224,14 @@ button{
         transform: rotate(360deg);
     }
 }
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
 
 /* Overlay */
 .overlay{
