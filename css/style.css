@@ -231,7 +231,7 @@ button{
     100% {
       transform: scale(1.1);
     }
-  }
+}
 
 /* Overlay */
 .overlay{
@@ -855,6 +855,7 @@ button{
 	list-style:none;
 	font-size:15px;
 	line-height: 5.0;
+    margin-bottom: auto;
     margin:6px 4px 0 0;
   }
 
