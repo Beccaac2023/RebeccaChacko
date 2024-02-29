@@ -777,7 +777,6 @@ button{
     background-color: var(--main-color);
 }
 
-
 /* Responsive */
 @media(max-width:991px){
    .container{
@@ -842,7 +841,6 @@ button{
         font-size: 20px;
     }
 }
-
 
 /* FOOTER SECTION */
   
